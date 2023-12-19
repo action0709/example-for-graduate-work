@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @Data
-public class  Ads {
+public class AdsDto {
     private Integer count;
-    private List<Ad> result;
+    private List<AdDto> result;
 }
